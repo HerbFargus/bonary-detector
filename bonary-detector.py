@@ -16,6 +16,7 @@ def enablePrint():
 #downloads = ghstats.download_stats("RetroPie", "RetroPie-Setup", None, True, ghstats.get_env_token(), True)
 print('Total Bonaries Downloaded:')
 downloadtotal = ghstats.main_cli(["RetroPie", "RetroPie-Setup", "-q"])
+print('Please Wait 60 Seconds')
 
 try:
   while True:
